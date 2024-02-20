@@ -12,6 +12,6 @@ En este proyecto, utilizo una variedad de tecnologías y herramientas, incluyend
 
 ## Contacto
 
-¡Gracias por visitar mi portfolio! Si estás interesado/a en colaborar en un proyecto o simplemente quieres ponerte en contacto, no dudes en enviarme un correo electrónico a [cristaldofiorela@gmail.com](cristaldofiorela@gmail.com) o conectarte conmigo a través de [LinkedIn](https://www.linkedin.com/in/fiorela-cristaldo/).
+¡Gracias por visitar mi portfolio! Si estás interesado/a en colaborar en un proyecto o simplemente quieres ponerte en contacto, no dudes en enviarme un correo electrónico a <cristaldofiorela@gmail.com> o conectarte conmigo a través de [LinkedIn](https://www.linkedin.com/in/fiorela-cristaldo/).
 
 ¡Espero tener la oportunidad de trabajar juntos/as pronto!
