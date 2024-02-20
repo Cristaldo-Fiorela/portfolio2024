@@ -1,8 +1,17 @@
-# React + Vite
+# Portfolio 2024
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido/a a mi portfolio! Soy Fiorela, desarrolladora web apasionada por el desarrollo frontend. Este portfolio es un espacio donde comparto algunos de mis proyectos y experiencias en el campo de programación.
 
-Currently, two official plugins are available:
+## Tecnologías
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+En este proyecto, utilizo una variedad de tecnologías y herramientas, incluyendo:
+
+- CSS
+- JavaScript
+- React.js
+
+## Contacto
+
+¡Gracias por visitar mi portfolio! Si estás interesado/a en colaborar en un proyecto o simplemente quieres ponerte en contacto, no dudes en enviarme un correo electrónico a [cristaldofiorela@gmail.com](cristaldofiorela@gmail.com) o conectarte conmigo a través de [LinkedIn](https://www.linkedin.com/in/fiorela-cristaldo/).
+
+¡Espero tener la oportunidad de trabajar juntos/as pronto!
