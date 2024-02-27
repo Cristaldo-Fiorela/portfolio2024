@@ -1,3 +1,16 @@
+h1 {
+  font-family: "Dela Gothic One", sans-serif;
+}
+p {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+p span {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+}
 /* 
 OSCURO
 #F9DB69
@@ -10,6 +23,7 @@ OSCURO
 
 CLARO
 #e7b018
-#fad1f1
 #9eb5f5
+#fad1f1
+
 */
