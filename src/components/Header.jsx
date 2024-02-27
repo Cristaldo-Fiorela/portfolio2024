@@ -1,8 +1,18 @@
 import React from 'react'
+import { Icon } from '@iconify/react';
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <header>
+      <div className="logo">
+        <Icon icon="solar:star-bold"   />
+      </div>
+      <nav>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+      </nav>
+    </header>
   )
 }
 
