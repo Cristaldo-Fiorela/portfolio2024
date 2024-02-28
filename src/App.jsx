@@ -1,5 +1,6 @@
 import About from './components/About';
 import Header from './components/Header';
+import Skills from './components/Skills';
 import Welcome from './components/Welcome';
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       <Header />
       <Welcome />
       <About />
-      <p>Lorem ipsum <span>dolor</span> sit amet.</p>
+      <Skills />
     </>
   )
 }
