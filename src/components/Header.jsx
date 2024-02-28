@@ -5,13 +5,15 @@ const Header = () => {
   return (
     <header>
       <div className="logo">
-        <h2>Cristaldo</h2>
-        <Icon icon="solar:star-bold"   />
+        <span>&#123;</span>
+        <Icon icon="solar:star-bold" width="2rem" height="2rem" />        
+        <span>&#125;</span>
       </div>
       <nav>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
+        <a href="">Sobre Mi</a>
+        <a href="">Habilidades</a>
+        <a href="">Proyectos</a>
+        <a href="">CV</a>
       </nav>
     </header>
   )
