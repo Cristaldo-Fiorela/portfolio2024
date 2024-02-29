@@ -1,6 +1,16 @@
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <>
+      <h3>Proyectos</h3>
+      <div>
+        <div>
+          <p>#REACT</p>
+          <p>#TYPESCRIPT</p>
+          <p>#TAILWINDCSS</p>
+        </div>
+        <h4>Nombre Proyecto</h4>
+      </div>
+    </>
   )
 }
 
