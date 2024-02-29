@@ -12,6 +12,8 @@ body {
   background-color: #EFFAFB;
 }
 
+/* HEADER */
+
 header {
   background-color: red;
   display: flex;
@@ -51,9 +53,11 @@ header nav a {
   text-decoration: none;
 }
 
-h1 {
-  font-family: "Dela Gothic One", sans-serif;
-}
+/* WELCOME */
+
+
+
+/* ANIMACION */
 
 @keyframes rotar {
   from {
