@@ -2,7 +2,8 @@ const Projects = () => {
   return (
     <>
       <h3>Proyectos</h3>
-      <div>
+      {/*  ANCHOR?  */}
+      <div> 
         <div>
           <p>#REACT</p>
           <p>#TYPESCRIPT</p>
