@@ -6,7 +6,7 @@ const Header = () => {
     <header>
       <div className="logo">
         <span>&#123;</span>
-        <Icon icon="solar:star-bold" width="2rem" height="2rem" />        
+        <Icon icon="solar:star-bold" width="2rem" height="2rem" id='logo-icon' />        
         <span>&#125;</span>
       </div>
       <nav>

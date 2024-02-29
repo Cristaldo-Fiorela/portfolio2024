@@ -26,6 +26,7 @@ header div.logo {
   background-color: aquamarine;
   display: flex;
   flex-direction: row;
+  padding-left: 2rem;
 }
 
 header div.logo span {
@@ -33,12 +34,16 @@ header div.logo span {
   font-weight: 700;
 }
 
+header div.logo #logo-icon {
+  animation: rotar linear 20s infinite;
+}
+
 header nav {
   align-items: center;
   background-color: blue;
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 25%;
 }
 
 header nav a {
@@ -50,11 +55,15 @@ h1 {
   font-family: "Dela Gothic One", sans-serif;
 }
 
-
-p span {
-  font-family: "Space Grotesk", sans-serif;
-  font-weight: 700;
+@keyframes rotar {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
 }
+
 /* 
 OSCURO
 #F9DB69
