@@ -55,7 +55,9 @@ header nav a {
 
 /* WELCOME */
 
-
+div img#portrait {
+  height: 400px;
+}
 
 /* ANIMACION */
 
