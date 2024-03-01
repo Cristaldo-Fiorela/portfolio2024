@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
     <>
-      <h3>Proyectos</h3>
+      <h2>Proyectos</h2>
       {/*  ANCHOR?  */}
       <div> 
         <div>
