@@ -5,13 +5,13 @@ const Welcome = () => {
   return (
     <div id='welcome'>
       <h2>Hola {""}
-        <span>
-          <Icon icon="mdi:hand-wave" width="2rem" height="2rem" />
+        <span className='welcome-hand-icon'>
+          <Icon icon="mdi:hand-wave" width="3rem" height="3rem" />
         </span>
         {""} soy
       </h2>
       <h1>Fiorela Cristaldo</h1>
-      <div>
+      <div className='subtitle'>
         <h3>
           desarrolladora {""}
           <span>fullstack</span>
