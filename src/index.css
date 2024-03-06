@@ -71,7 +71,9 @@ div#welcome div.subtitle {
   flex-direction: column;
   justify-content: center;
 }
-div#welcome h2 span.welcome-hand-icon:hover {
+div#welcome h2 #welcome-hand-icon:hover {
+  transform: rotateZ(20deg);
+  transition: linear .3s;
 }
 
 div#welcome h1 {

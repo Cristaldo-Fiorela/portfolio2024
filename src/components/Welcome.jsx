@@ -5,10 +5,8 @@ const Welcome = () => {
   return (
     <div id='welcome'>
       <h2>Hola {""}
-        <span className='welcome-hand-icon'>
-          <Icon icon="mdi:hand-wave" width="3rem" height="3rem" />
-        </span>
-        {""} soy
+      <Icon icon="mdi:hand-wave" width="3rem" height="3rem" id='welcome-hand-icon' />
+      {""} soy
       </h2>
       <h1>Fiorela Cristaldo</h1>
       <div className='subtitle'>
