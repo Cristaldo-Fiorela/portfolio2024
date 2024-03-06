@@ -21,6 +21,9 @@ header {
   height: 5vh;
   justify-content: space-between;
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
 header div.logo {
