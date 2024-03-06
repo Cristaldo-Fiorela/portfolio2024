@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 
 const Welcome = () => {
   return (
-    <>
+    <div id='welcome'>
       <h2>Hola {""}
         <span>
           <Icon icon="mdi:hand-wave" width="2rem" height="2rem" />
@@ -23,7 +23,7 @@ const Welcome = () => {
           <Icon icon="lucide:sparkle" width="1.2rem" height="1.2rem" />
         </h3>
       </div>
-    </>
+    </div>
   )
 }
 

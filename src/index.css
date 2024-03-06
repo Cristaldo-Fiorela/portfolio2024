@@ -58,6 +58,14 @@ header nav a {
 }
 
 /* WELCOME */
+div#welcome {
+  align-items: center;
+  background-color: rgb(42, 165, 118);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 95vh;
+}
 
 div img#portrait {
   height: 400px;
