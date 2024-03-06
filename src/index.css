@@ -21,6 +21,8 @@ header {
   height: 5vh;
   justify-content: space-between;
   width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
   position: sticky;
   top: 0;
   z-index: 2;
@@ -31,7 +33,6 @@ header div.logo {
   background-color: aquamarine;
   display: flex;
   flex-direction: row;
-  padding-left: 2rem;
 }
 
 header div.logo span {
