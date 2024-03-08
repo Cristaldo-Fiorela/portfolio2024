@@ -10,10 +10,10 @@ const Welcome = () => {
       </h2>
       <h1>Fiorela Cristaldo</h1>
       <div className='subtitle'>
-        <h3>
+        <h2>
           desarrolladora {""}
-          <span>fullstack</span>
-        </h3>
+          <span className='subtitle-pill'>fullstack</span>
+        </h2>
         <h3>
           con pasión por el {""}        
         <Icon icon="lucide:sparkle" width="1.2rem" height="1.2rem" />

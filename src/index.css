@@ -41,7 +41,7 @@ header div.logo span {
 }
 
 header div.logo #logo-icon {
-  animation: rotar linear 20s infinite;
+  animation: rotate linear 20s infinite;
 }
 
 header nav {
@@ -71,6 +71,7 @@ div#welcome div.subtitle {
   flex-direction: column;
   justify-content: center;
 }
+
 div#welcome h2 #welcome-hand-icon:hover {
   transform: rotateZ(20deg);
   transition: linear .3s;
@@ -79,6 +80,14 @@ div#welcome h2 #welcome-hand-icon:hover {
 div#welcome h1 {
   font-family: "Dela Gothic One", sans-serif;
   font-size: 7.5rem;
+}
+
+div#welcome div.subtitle h2 span.subtitle-pill:hover {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-color: black;
+  border-style: solid;
+  animation: pill-focus ease .3s forwards;
 }
 
 /* ABOUT */
@@ -95,12 +104,20 @@ div img#portrait {
 
 /* ANIMACION */
 
-@keyframes rotar {
+@keyframes rotate {
   from {
-      transform: rotate(0deg);
+    transform: rotate(10deg);
   }
   to {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pill-focus {
+  from {
+    border-radius: 10px;
+  } to {
+    border-radius: 40px;
   }
 }
 
