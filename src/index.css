@@ -20,6 +20,12 @@ main#main-container {
   position: relative;
 }
 
+section h2.section-title {
+  align-self: start;
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 4rem;
+}
+
 /* HEADER */
 
 header {
@@ -117,19 +123,29 @@ div#welcome div.subtitle h3 span.subtitle-sparkle:hover .sparkle {
 /* ABOUT */
 
 section#about {
-  background-color: blueviolet;
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-section h2.section-title {
-  font-family: "Dela Gothic One", sans-serif;
-  font-size: 4rem;
+section#about div {
+  display: flex;
+  justify-content: space-between;
+  max-width: 60%;
+}
+
+section#about div div.about-description {
+  display: flex;
+  font-size: 1.4rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
 }
 
 div img#portrait {
-  height: 400px;
+  height: 500px;
 }
 
 /* SKILLS */
