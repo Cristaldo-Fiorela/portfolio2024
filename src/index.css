@@ -58,9 +58,12 @@ header nav a {
 }
 
 /* WELCOME */
+
 div#welcome {
   background-color: rgb(42, 165, 118);
   min-height: 95vh;
+  position: sticky;
+  top: 0;
 }
 
 div#welcome,
@@ -104,6 +107,12 @@ div#welcome div.subtitle h3 span.subtitle-sparkle:hover .sparkle {
 }
 
 /* ABOUT */
+
+section#about {
+  background-color: blueviolet;
+  position: sticky;
+  top: 0;
+}
 
 div img#portrait {
   height: 400px;
