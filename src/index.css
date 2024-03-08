@@ -12,6 +12,12 @@ body {
   background-color: #EFFAFB;
 }
 
+main#main-container {
+  background-color: #1A1918;
+  min-height: 100vh;
+  position: relative;
+}
+
 /* HEADER */
 
 header {
@@ -110,8 +116,6 @@ div#welcome div.subtitle h3 span.subtitle-sparkle:hover .sparkle {
 
 section#about {
   background-color: blueviolet;
-  position: sticky;
-  top: 0;
 }
 
 div img#portrait {

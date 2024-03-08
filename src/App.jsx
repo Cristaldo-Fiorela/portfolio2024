@@ -11,9 +11,11 @@ function App() {
     <>
       <Header />
       <Welcome />
-      <About />
-      <Skills />
-      <Projects/>
+      <main id='main-container'>
+        <About />
+        <Skills />
+        <Projects/>
+      </main>
       <Footer />
     </>
   )
