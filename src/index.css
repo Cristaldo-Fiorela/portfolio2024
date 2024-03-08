@@ -14,7 +14,10 @@ body {
 
 main#main-container {
   background-color: #1A1918;
+  border-radius: 50px;
   min-height: 100vh;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
   position: relative;
 }
 
