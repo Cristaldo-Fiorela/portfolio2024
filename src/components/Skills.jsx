@@ -1,7 +1,7 @@
 const Skills = () => {
   return (
-    <>
-      <h2>Habilidades</h2>
+    <section>
+      <h2 className="section-title">Habilidades</h2>
       <section>
         <h3>Desarrollo Frontend</h3>
         <p>HTML</p>
@@ -23,7 +23,7 @@ const Skills = () => {
         <p>Git</p>
         <p>GitHub</p>
       </section>
-    </>
+    </section>
   )
 }
 
