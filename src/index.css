@@ -25,6 +25,7 @@ section h2.section-title {
   align-self: start;
   font-family: "Dela Gothic One", sans-serif;
   font-size: 4rem;
+  margin-bottom: 2rem;
 }
 
 /* HEADER */
@@ -145,8 +146,10 @@ section#about div div.about-description {
   padding: 2rem;
 }
 
-div img#portrait {
+section#about div img#portrait {
   height: 500px;
+  border-radius: 100px;
+  border: 10px dotted;
 }
 
 /* SKILLS */
