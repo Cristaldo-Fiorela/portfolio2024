@@ -15,10 +15,12 @@ const Welcome = () => {
           <span className='subtitle-pill'>fullstack</span>
         </h2>
         <h3>
-          con pasión por el {""}        
-        <Icon icon="lucide:sparkle" width="1.2rem" height="1.2rem" />
-          {""} frontend {""}
-          <Icon icon="lucide:sparkle" width="1.2rem" height="1.2rem" />
+          con pasión por el {""}
+          <span className='subtitle-sparkle'>
+            <Icon icon="lucide:sparkle" width="2rem" height="2rem" />
+            {""} frontend {""}
+            <Icon icon="lucide:sparkle" width="2rem" height="2rem" />
+          </span>        
         </h3>
       </div>
     </div>
