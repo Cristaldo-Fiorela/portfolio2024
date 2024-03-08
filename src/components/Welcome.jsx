@@ -17,9 +17,9 @@ const Welcome = () => {
         <h3>
           con pasión por el {""}
           <span className='subtitle-sparkle'>
-            <Icon icon="lucide:sparkle" width="2rem" height="2rem" />
+            <Icon icon="lucide:sparkle" width="2rem" height="2rem" className='sparkle'/>
             {""} frontend {""}
-            <Icon icon="lucide:sparkle" width="2rem" height="2rem" />
+            <Icon icon="lucide:sparkle" width="2rem" height="2rem" className='sparkle'/>
           </span>        
         </h3>
       </div>

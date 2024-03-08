@@ -96,6 +96,14 @@ div#welcome div.subtitle h2 span.subtitle-pill:hover {
   font-weight: 700;
 }
 
+div#welcome div.subtitle h3 {
+  margin-top: .5rem;
+}
+
+div#welcome div.subtitle h3 span.subtitle-sparkle:hover .sparkle {
+  animation: rotate ease-in-out 1s;
+}
+
 /* ABOUT */
 
 div img#portrait {
