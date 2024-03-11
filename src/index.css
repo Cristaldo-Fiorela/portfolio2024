@@ -156,6 +156,17 @@ section#about div div.about-description {
   padding: 2rem;
 }
 
+section#about span.yellow-hl {
+  color: var(--highlight-yellow);
+}
+
+section#about span.pink-hl {
+  color: var(--highlight-pink);
+}
+
+section#about span.purple-hl {
+  color: #717EFF;
+}
 section#about div img#portrait {
   height: 500px;
   border-radius: 100px;
