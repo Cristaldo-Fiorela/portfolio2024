@@ -10,7 +10,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: var(--body-font);
+  font-family: var(--font-body);
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -34,7 +34,7 @@ main#main-container {
 
 section h2.section-title {
   align-self: start;
-  font-family: var(--heading-font);
+  font-family: var(--font-heading);
   font-size: 4rem;
   margin-bottom: 2rem;
 }
@@ -107,7 +107,7 @@ div#welcome h2 #welcome-hand-icon:hover {
 }
 
 div#welcome h1 {
-  font-family: var(--heading-font);
+  font-family: var(--font-heading);
   font-size: 7.5rem;
 }
 
