@@ -1,6 +1,11 @@
+:root {
+  --heading-font: "Dela Gothic One", sans-serif;
+  --body-font:"Space Grotesk", sans-serif;
+}
+
 * {
   box-sizing: border-box;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: var(--body-font);
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -23,7 +28,7 @@ main#main-container {
 
 section h2.section-title {
   align-self: start;
-  font-family: "Dela Gothic One", sans-serif;
+  font-family: var(--heading-font);
   font-size: 4rem;
   margin-bottom: 2rem;
 }
@@ -97,7 +102,7 @@ div#welcome h2 #welcome-hand-icon:hover {
 }
 
 div#welcome h1 {
-  font-family: "Dela Gothic One", sans-serif;
+  font-family: var(--heading-font);
   font-size: 7.5rem;
 }
 
