@@ -1,10 +1,17 @@
 :root {
   --heading-font: "Dela Gothic One", sans-serif;
   --body-font:"Space Grotesk", sans-serif;
+  --white: #EFFAFB;
+  --white: #f0f0f0;
+  --black: #1A1918;
+  --highlight-yellow: #F9DB69;
+  --highlight-purple: #717EFF;
+  --highlight-pink: #F1A0FF;
 }
 
 * {
   box-sizing: border-box;
+  color: var(--black);
   font-family: var(--body-font);
   font-weight: 400;
   margin: 0;
@@ -14,13 +21,13 @@
 body {
   min-height: 100vh;
   width: 100%;
-  background-color: #EFFAFB;
+  background-color: var(--white);
 }
 
 main#main-container {
-  background-color: #1A1918;
+  background-color: var(--black);
   border-radius: 50px;
-  color: #EFFAFB;
+  color:  var(--white);
   min-height: 100vh;
   padding: 5rem;
   position: relative;
@@ -81,7 +88,6 @@ header nav a {
 /* WELCOME */
 
 div#welcome {
-  background-color: rgb(42, 165, 118);
   min-height: 95vh;
   position: sticky;
   top: 0;
@@ -108,7 +114,7 @@ div#welcome h1 {
 
 div#welcome div.subtitle h2 span.subtitle-pill {
   border: solid;
-  border-color: black;
+  border-color: var(--black);
   border-radius: 40px;
   padding-left: 1rem;
   padding-right: 1rem;
