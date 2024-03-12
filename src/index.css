@@ -191,8 +191,8 @@ section#skills div.skill-container {
 section#skills div.skill-container div.skill-container-small {
   display: flex;
   flex-direction: column;
+  height: 100%;
   justify-content: space-between;
-  gap: 1rem;
 }
 
 section#skills div.skill-container h3{
