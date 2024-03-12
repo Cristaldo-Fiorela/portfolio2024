@@ -150,9 +150,9 @@ section#about div {
 section#about div img#portrait {
   height: 500px;
   border-radius: 100px;
-  border: 10px solid;
-  border-image-source: linear-gradient(var(--highlight-yellow),var(--highlight-pink), var(--highlight-purple));
-  border-image-slice: 1 fill;
+  /* border: 10px solid; */
+  /* border-image-source: linear-gradient(var(--highlight-yellow),var(--highlight-pink), var(--highlight-purple)); */
+  /* border-image-slice: 1 fill; */
 }
 
 section#about div div.about-description {
