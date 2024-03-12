@@ -21,8 +21,8 @@ const Skills = () => {
           <section id="skill-back">
             <h3>Desarrollo Backend</h3>
             <div className='skill-name'>
-              <p>Node.js</p>
-              <p>MongoDB</p>
+              <p>Node.js <Icon icon="devicon:nodejs" width="1.2rem" height="1.2rem" /></p>
+              <p>MongoDB <Icon icon="vscode-icons:file-type-mongo" width="1.2rem" height="1.2rem" /></p>
             </div>
           </section>
 
