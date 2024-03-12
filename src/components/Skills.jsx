@@ -7,7 +7,7 @@ const Skills = () => {
       <div className="skill-container">
         <section id="skill-front">
           <h3>Desarrollo Frontend</h3>
-          <div className="skill-name">
+          <div className="skill-name-container">
             <p>HTML <Icon icon="skill-icons:html" width="1.7rem" height="1.7rem" /> </p>
             <p>CSS <Icon icon="skill-icons:css" width="1.7rem" height="1.7rem" /></p>
             <p>JavaScript <Icon icon="skill-icons:javascript" width="1.7rem" height="1.7rem" /></p>
@@ -20,7 +20,7 @@ const Skills = () => {
         <div className="skill-container-small">
           <section id="skill-back">
             <h3>Desarrollo Backend</h3>
-            <div className='skill-name'>
+            <div className='skill-name-container'>
               <p>Node.js <Icon icon="devicon:nodejs" width="1.7rem" height="1.7rem" /></p>
               <p>MongoDB <Icon icon="vscode-icons:file-type-mongo" width="1.7rem" height="1.7rem" /></p>
             </div>
@@ -28,7 +28,7 @@ const Skills = () => {
 
           <section id="skill-ver">
             <h3>Control de versiones</h3>
-            <div className='skill-name'>
+            <div className='skill-name-container'>
               <p>Git <Icon icon="devicon:git" width="1.7rem" height="1.7rem" /></p>
               <p>GitHub <Icon icon="fluent-mdl2:git-hub-logo" width="1.7rem" height="1.7rem" /></p>
             </div>
