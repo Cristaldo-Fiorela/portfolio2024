@@ -177,6 +177,7 @@ section#about span.purple-hl {
 }
 
 /* SKILLS */
+
 section#skills div.skill-container {
   display: flex;
   gap: 50px;
@@ -186,10 +187,17 @@ section#skills div.skill-container {
 section#skills div.skill-container h3{
   font-family: var(--font-heading);
   font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
+section#skills div.skill-container div.skill-name {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
 section#skills div.skill-container p {
-  
+  background-color: var(--white);
+  font-size: 1.4rem;
 }
 
 section#skills div.skill-container div.skill-container-small {
@@ -200,8 +208,10 @@ section#skills div.skill-container div.skill-container-small {
 
 section#skills div.skill-container section#skill-front {
   background-color: var(--highlight-pink);
+  border-radius: 20px;
   color: var(--black);
   padding: 2rem;
+  width: 30rem;
 }
 
 section#skills div.skill-container section#skill-back {

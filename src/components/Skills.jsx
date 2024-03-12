@@ -1,3 +1,5 @@
+import { Icon } from '@iconify/react';
+
 const Skills = () => {
   return (
     <section id="skills">
@@ -5,12 +7,14 @@ const Skills = () => {
       <div className="skill-container">
         <section id="skill-front">
           <h3>Desarrollo Frontend</h3>
-          <p>HTML</p>
-          <p>CSS</p>
-          <p>JavaScript</p>
-          <p>TyperScript</p>
-          <p>React.js</p>
-          <p>React Native</p>
+          <div className="skill-name">
+            <p>HTML </p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>TyperScript</p>
+            <p>React.js</p>
+            <p>React Native</p>
+          </div>
         </section>
 
         <div className="skill-container-small">
