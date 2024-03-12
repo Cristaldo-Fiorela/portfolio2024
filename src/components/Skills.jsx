@@ -29,8 +29,8 @@ const Skills = () => {
           <section id="skill-ver">
             <h3>Control de versiones</h3>
             <div className='skill-name'>
-              <p>Git</p>
-              <p>GitHub</p>
+              <p>Git <Icon icon="devicon:git" width="1.2rem" height="1.2rem" /></p>
+              <p>GitHub <Icon icon="fluent-mdl2:git-hub-logo" width="1.2rem" height="1.2rem" /></p>
             </div>
           </section>
         </div>
