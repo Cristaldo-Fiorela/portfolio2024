@@ -147,6 +147,14 @@ section#about div {
   max-width: 60%;
 }
 
+section#about div img#portrait {
+  height: 500px;
+  border-radius: 100px;
+  border: 10px solid;
+  border-image-source: linear-gradient(var(--highlight-yellow),var(--highlight-pink), var(--highlight-purple));
+  border-image-slice: 1 fill;
+}
+
 section#about div div.about-description {
   display: flex;
   font-size: 1.4rem;
@@ -167,11 +175,7 @@ section#about span.pink-hl {
 section#about span.purple-hl {
   color: #717EFF;
 }
-section#about div img#portrait {
-  height: 500px;
-  border-radius: 100px;
-  border: 10px dotted;
-}
+
 
 /* SKILLS */
 
