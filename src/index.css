@@ -176,9 +176,41 @@ section#about span.purple-hl {
   color: #717EFF;
 }
 
-
 /* SKILLS */
+section#skills div.skill-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
 
+section#skills div.skill-container h3{
+  font-family: var(--font-heading);
+  font-size: 2rem;
+}
+
+section#skills div.skill-container p {
+  
+}
+
+section#skills div.skill-container div.skill-container-small {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section#skills div.skill-container section#skill-front {
+  background-color: var(--highlight-pink);
+  color: var(--black);
+  padding: 2rem;
+}
+
+section#skills div.skill-container section#skill-back {
+  background-color: rgb(6, 124, 30);
+}
+
+section#skills div.skill-container section#skill-ver {
+  background-color: rgb(17, 0, 255);
+}
 /* PROJECTS */
 
 /* FOOTER */
