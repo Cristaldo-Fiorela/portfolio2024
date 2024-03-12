@@ -197,8 +197,20 @@ section#skills div.skill-container div.skill-name {
   gap: 1rem;
 }
 section#skills div.skill-container p {
+  align-items: center;
+  border-radius: 10px;
   background-color: var(--white);
+  display: flex;
   font-size: 1.4rem;
+  font-weight: 700;
+  gap: 5px;
+  padding: .5rem;
+  transition: transform .2s ease;
+}
+
+section#skills div.skill-container p:hover {
+  transform: scale(1.2);
+  transition: ease-in-out .2s;
 }
 
 section#skills div.skill-container div.skill-container-small {
@@ -215,11 +227,15 @@ section#skills div.skill-container section#skill-front {
 }
 
 section#skills div.skill-container section#skill-back {
-  background-color: rgb(6, 124, 30);
+  background-color: var(--highlight-yellow);
+  border-radius: 20px;
+  padding: 2rem;
 }
 
 section#skills div.skill-container section#skill-ver {
-  background-color: rgb(17, 0, 255);
+  background-color: var(--highlight-purple);
+  border-radius: 20px;
+  padding: 2rem;
 }
 /* PROJECTS */
 
