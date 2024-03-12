@@ -10,14 +10,15 @@
 
 * {
   box-sizing: border-box;
-  font-family: var(--font-body);
-  font-weight: 400;
   margin: 0;
   padding: 0;
 }
 
 body {
   color: var(--black);
+  font-family: var(--font-body);
+  font-size: 1.4rem;
+  font-weight: 400;
   min-height: 100vh;
   width: 100%;
   background-color: var(--white);
@@ -248,6 +249,16 @@ section#skills div.skill-container section#skill-ver {
 }
 /* PROJECTS */
 
+section#projects div.project-container {
+  /* background-image: url('https://i.pinimg.com/736x/ea/a2/f7/eaa2f78e0867e06e5f8cf77ea5e89e7c.jpg'); */
+  background-color: rgb(26, 94, 71);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: space-between;
+  width: 500px;
+}
 
 
 /* FOOTER */

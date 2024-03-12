@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <section id="proyects">
+    <section id="projects">
       <h2 className="section-title">Proyectos</h2>
       {/*  ANCHOR?  */}
       <div className="project-container"> 
