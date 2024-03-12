@@ -179,6 +179,7 @@ section#about span.purple-hl {
 /* SKILLS */
 
 section#skills div.skill-container {
+  color: var(--black);
   display: flex;
   gap: 50px;
   justify-content: center;
@@ -209,7 +210,6 @@ section#skills div.skill-container div.skill-container-small {
 section#skills div.skill-container section#skill-front {
   background-color: var(--highlight-pink);
   border-radius: 20px;
-  color: var(--black);
   padding: 2rem;
   width: 30rem;
 }

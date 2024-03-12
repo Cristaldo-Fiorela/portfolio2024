@@ -8,26 +8,30 @@ const Skills = () => {
         <section id="skill-front">
           <h3>Desarrollo Frontend</h3>
           <div className="skill-name">
-            <p>HTML </p>
-            <p>CSS</p>
-            <p>JavaScript</p>
-            <p>TyperScript</p>
-            <p>React.js</p>
-            <p>React Native</p>
+            <p>HTML <Icon icon="skill-icons:html" width="1.2rem" height="1.2rem" /> </p>
+            <p>CSS <Icon icon="skill-icons:css" width="1.2rem" height="1.2rem" /></p>
+            <p>JavaScript <Icon icon="skill-icons:javascript" width="1.2rem" height="1.2rem" /></p>
+            <p>TyperScript <Icon icon="skill-icons:typescript" width="1.2rem" height="1.2rem" /></p>
+            <p>React.js <Icon icon="logos:react" width="1.2rem" height="1.2rem" /></p>
+            <p>React Native <Icon icon="logos:react" width="1.2rem" height="1.2rem" /></p>
           </div>
         </section>
 
         <div className="skill-container-small">
           <section id="skill-back">
             <h3>Desarrollo Backend</h3>
-            <p>Node.js</p>
-            <p>MongoDB</p>
+            <div className='skill-name'>
+              <p>Node.js</p>
+              <p>MongoDB</p>
+            </div>
           </section>
 
           <section id="skill-ver">
             <h3>Control de versiones</h3>
-            <p>Git</p>
-            <p>GitHub</p>
+            <div className='skill-name'>
+              <p>Git</p>
+              <p>GitHub</p>
+            </div>
           </section>
         </div>
 
