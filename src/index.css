@@ -274,6 +274,13 @@ section#projects div.project-container div.tech-tags p {
   padding-right: .7rem;
 }
 
+section#projects div.project-container h4 {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  overflow-wrap: break-word;
+  padding: 1.5rem;
+  width: 100%;
+}
 /* FOOTER */
 
 /* ANIMACION */
