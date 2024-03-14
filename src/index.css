@@ -249,6 +249,16 @@ section#skills div.skill-container section#skill-ver {
 }
 /* PROJECTS */
 
+section#projects div.projects-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  /* justify-content: space-around; */
+  min-height: 500px;
+  width: 100%;
+}
+
 section#projects div.project-card {
   background-size: cover;
   background-repeat: no-repeat;
