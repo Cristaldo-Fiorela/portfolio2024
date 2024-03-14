@@ -1,4 +1,15 @@
+import { useState, useEffect } from 'react';
+import DB from '../db/db.json';
+
 const Projects = () => {
+
+  const [bgImage, setBgImage] = useState('');
+
+  useEffect(() => {
+    console.log(DB);
+  }, [])
+  
+
   return (
     <section id="projects">
       <h2 className="section-title">Proyectos</h2>
