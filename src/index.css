@@ -264,8 +264,9 @@ section#projects div.project-card {
   background-repeat: no-repeat;
   border-radius: 30px;
   height: 500px;
-  width: 500px;
   overflow: hidden;
+  position: relative;
+  width: 500px;
 }
 
 section#projects div.project-card:hover div.card-body {
@@ -287,7 +288,7 @@ section#projects div.project-card div.tech-tags {
   padding: 1rem;
   position: absolute;
   top: -100%;
-  transition: .5s ease;
+  transition: top .5s ease-in-out;
 }
 
 section#projects div.project-card:hover div.tech-tags {
@@ -309,7 +310,7 @@ section#projects div.project-card h4 {
   width: 100%;
   position: absolute;
   bottom: -100%;
-  transition: .5s ease;
+  transition: bottom .5s ease-in-out;
 }
 
 section#projects div.project-card:hover h4 {
