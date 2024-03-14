@@ -11,12 +11,14 @@ const Projects = () => {
             key={project.id}
             style={{backgroundImage: `url('${project.image}')`}}
           >
-            <div className="tech-tags">
-              {project.tech.map( (tech, i) => (
-                <p key={i}>#{tech}</p>
-              ))}
+            <div className='card-body'>
+              <div className="tech-tags">
+                {project.tech.map( (tech, i) => (
+                  <p key={i}>#{tech}</p>
+                ))}
+              </div>
+              <h4>{project.name}</h4>
             </div>
-            <h4>{project.name}</h4>
           </div>
           ))
         }

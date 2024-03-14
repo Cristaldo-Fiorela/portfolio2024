@@ -263,11 +263,21 @@ section#projects div.project-card {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 30px;
+  height: 500px;
+  width: 500px;
+  overflow: hidden;
+}
+
+section#projects div.project-card:hover div.card-body {
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 100%;
   justify-content: space-between;
-  width: 500px;
+  width: 100%;
+  background: #1a191898;
+  backdrop-filter: blur(2px);
+  border-radius: 30px;
+  transition: .1s ease-in;
 }
 
 section#projects div.project-card div.tech-tags {
@@ -275,6 +285,13 @@ section#projects div.project-card div.tech-tags {
   flex-wrap: wrap;
   gap: 1rem;
   padding: 1rem;
+  position: absolute;
+  top: -100%;
+  transition: .5s ease;
+}
+
+section#projects div.project-card:hover div.tech-tags {
+  top: 0;
 }
 
 section#projects div.project-card div.tech-tags p {
@@ -290,7 +307,15 @@ section#projects div.project-card h4 {
   overflow-wrap: break-word;
   padding: 1.5rem;
   width: 100%;
+  position: absolute;
+  bottom: -100%;
+  transition: .5s ease;
 }
+
+section#projects div.project-card:hover h4 {
+  bottom: 0;
+}
+
 /* FOOTER */
 
 /* ANIMACION */
