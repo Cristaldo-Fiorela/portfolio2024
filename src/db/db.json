@@ -1,0 +1,12 @@
+[
+  {
+    "image": "../images/project-mockup-mytinerary.png",
+    "name": "My Tinerary",
+    "tech": ["react", "javascript", "blog"]
+  },
+  {
+    "image": "../images/project-mockup-gea.png",
+    "name": "Gea Store",
+    "tech": ["react", "javascript", "ecommerce"]
+  }
+]
