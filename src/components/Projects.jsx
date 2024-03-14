@@ -1,27 +1,25 @@
-import { useState, useEffect } from 'react';
 import DB from '../db/db.json';
 
 const Projects = () => {
-
-  const [bgImage, setBgImage] = useState('');
-
-  useEffect(() => {
-    console.log(DB);
-  }, [])
-  
-
   return (
     <section id="projects">
       <h2 className="section-title">Proyectos</h2>
-      {/*  ANCHOR?  */}
-      <div className="project-container"> 
-        <div className="tech-tags">
-          <p>#REACT</p>
-          <p>#TYPESCRIPT</p>
-          <p>#TAILWINDCSS</p>
+      { DB.map(project => (
+        <div 
+          className="project-container"
+          key={project.id}
+          style={{backgroundImage: `url('${project.image}')`}}
+        >
+          <div className="tech-tags">
+            {project.tech.map( (tech, i) => (
+              <p key={i}>#{tech}</p>
+            ))}
+          </div>
+          <h4>{project.name}</h4>
         </div>
-        <h4>Nombre Proyecto</h4>
-      </div>
+        ))
+      }
+
     </section>
   )
 }
