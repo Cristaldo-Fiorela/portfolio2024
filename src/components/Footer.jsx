@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <>
+    <footer>
       <section>
         <h2>Te gusta mi trabajo? Conectemos!</h2>
         <div>
@@ -13,7 +13,7 @@ const Footer = () => {
         <button>LINKEDIN</button>
         <button>GITHUB</button>
       </div>
-    </>
+    </footer>
   )
 }
 

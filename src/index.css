@@ -91,6 +91,7 @@ div#welcome {
   min-height: 95vh;
   position: sticky;
   top: 0;
+  z-index: -1;
 }
 
 div#welcome,
@@ -319,6 +320,15 @@ section#projects div.project-card:hover h4 {
 }
 
 /* FOOTER */
+
+footer {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: space-around;
+}
 
 /* ANIMACION */
 
