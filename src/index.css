@@ -338,6 +338,16 @@ footer div#social-container {
   width: 100%;
 }
 
+footer section#contact-container {
+  align-items: center;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
 /* ANIMACION */
 
 @keyframes rotate {
