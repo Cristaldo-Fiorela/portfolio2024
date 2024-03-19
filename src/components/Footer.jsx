@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer>
-      <section>
+      <section id="contact-container">
         <h2>Te gusta mi trabajo? Conectemos!</h2>
         <div>
           <a href="mailto:cristaldofiorela@gmail.com">cristaldofiorela@gmail.com</a>
@@ -9,9 +9,9 @@ const Footer = () => {
         </div>
       </section>
 
-      <div>
-        <button>LINKEDIN</button>
-        <button>GITHUB</button>
+      <div id="social-container">
+        <a href="" target="_blank" >LINKEDIN</a>
+        <a href="" target="_blank" >github</a>
       </div>
     </footer>
   )
