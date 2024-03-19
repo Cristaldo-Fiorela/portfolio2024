@@ -10,8 +10,8 @@ const Footer = () => {
       </section>
 
       <div id="social-container">
-        <a href="" target="_blank" >LINKEDIN</a>
-        <a href="" target="_blank" >github</a>
+        <a href="https://www.linkedin.com/in/fiorela-cristaldo/" target="_blank" >LINKEDIN</a>
+        <a href="https://github.com/Cristaldo-Fiorela" target="_blank" >github</a>
       </div>
     </footer>
   )
