@@ -10,5 +10,11 @@
     "name": "Gea Store",
     "tech": ["react", "javascript", "ecommerce"],
     "id": 2
+  },
+  {
+    "image": "/images/project-mockup-felino.png",
+    "name": "Felino Warriors",
+    "tech": ["react", "tailwindcss", "blog"],
+    "id": 3
   }
 ]
