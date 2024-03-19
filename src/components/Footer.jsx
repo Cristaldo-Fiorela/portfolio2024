@@ -1,3 +1,5 @@
+import { Icon } from '@iconify/react';
+
 const Footer = () => {
   return (
     <footer>
@@ -10,8 +12,12 @@ const Footer = () => {
       </section>
 
       <div id="social-container">
-        <a href="https://www.linkedin.com/in/fiorela-cristaldo/" target="_blank" >LINKEDIN</a>
-        <a href="https://github.com/Cristaldo-Fiorela" target="_blank" >github</a>
+        <a href="https://www.linkedin.com/in/fiorela-cristaldo/" target="_blank" >
+          <Icon icon="bi:linkedin" width="2rem" height="2rem" />
+        </a>
+        <a href="https://github.com/Cristaldo-Fiorela" target="_blank" >
+          <Icon icon="bi:github" width="2rem" height="2rem" />
+        </a>
       </div>
     </footer>
   )
