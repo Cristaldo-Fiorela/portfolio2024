@@ -5,7 +5,7 @@ const Footer = () => {
     <footer>
       <section id="contact-container">
         <h2>Te gusta mi trabajo? Conectemos!</h2>
-        <div>
+        <div id='mail-box'>
           <a href="mailto:cristaldofiorela@gmail.com">cristaldofiorela@gmail.com</a>
           <button>COPIAR</button>
         </div>

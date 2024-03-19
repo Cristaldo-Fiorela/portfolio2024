@@ -330,6 +330,14 @@ footer {
   justify-content: space-around;
 }
 
+footer div#social-container {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  width: 100%;
+}
+
 /* ANIMACION */
 
 @keyframes rotate {
