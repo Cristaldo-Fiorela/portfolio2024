@@ -354,9 +354,9 @@ footer section#contact-container div#mail-box {
   border: solid;
   border-radius: 10px;
   display: flex;
+  gap: 2rem;
   justify-content: space-between;
   padding: 1.5rem;
-  width: 25%;
 }
 
 /* ANIMACION */
