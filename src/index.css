@@ -340,7 +340,6 @@ footer div#social-container {
 
 footer section#contact-container {
   align-items: center;
-  background-color: aqua;
   display: flex;
   flex-direction: column;
   height: 60%;
@@ -350,13 +349,23 @@ footer section#contact-container {
 
 footer section#contact-container div#mail-box {
   align-items: center;
-  background-color: #F1A0FF;
-  border: solid;
+  background-color: var(--highlight-purple);
+  border: solid ;
   border-radius: 10px;
   display: flex;
   gap: 2rem;
   justify-content: space-between;
   padding: 1.5rem;
+  /* padding-left: 2rem;
+  padding-right: 2rem; */
+}
+
+footer section#contact-container div#mail-box button {
+  cursor: pointer;
+  padding: .5rem;
+  border: solid ;
+  border-radius: 15px;
+  background-color: transparent;
 }
 
 /* ANIMACION */
