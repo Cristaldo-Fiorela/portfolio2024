@@ -348,6 +348,17 @@ footer section#contact-container {
   width: 100%;
 }
 
+footer section#contact-container div#mail-box {
+  align-items: center;
+  background-color: #F1A0FF;
+  border: solid;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  width: 25%;
+}
+
 /* ANIMACION */
 
 @keyframes rotate {
