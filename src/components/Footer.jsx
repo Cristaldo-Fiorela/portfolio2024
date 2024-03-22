@@ -7,7 +7,7 @@ const Footer = () => {
         <h2>Te gusta mi trabajo? Conectemos!</h2>
         <div id='mail-box'>
           <a href="mailto:cristaldofiorela@gmail.com">cristaldofiorela@gmail.com</a>
-          <button>
+          <button title='copiar'>
             <Icon icon="lucide:copy-plus" width="2rem" height="2rem" />
           </button>
         </div>

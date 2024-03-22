@@ -359,6 +359,10 @@ footer section#contact-container div#mail-box {
   /* padding-left: 2rem;
   padding-right: 2rem; */
 }
+footer section#contact-container div#mail-box a {
+  text-decoration: none;
+  color: var(--white);
+}
 
 footer section#contact-container div#mail-box button {
   cursor: pointer;
