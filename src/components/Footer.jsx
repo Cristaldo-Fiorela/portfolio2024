@@ -1,15 +1,22 @@
+import { useState } from 'react';
 import { Icon } from '@iconify/react';
+import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 const Footer = () => {
+
+  const [copy, setCopy] = useState(false);
+
   return (
     <footer>
       <section id="contact-container">
         <h2>Te gusta mi trabajo? Conectemos!</h2>
         <div id='mail-box'>
           <a href="mailto:cristaldofiorela@gmail.com">cristaldofiorela@gmail.com</a>
-          <button title='copiar'>
-            <Icon icon="lucide:copy-plus" width="2rem" height="2rem" />
-          </button>
+          <CopyToClipboard text={'cristaldofiorela@gmail.com'}>
+            <button title='copiar'>
+              <Icon icon="lucide:copy-plus" width="2rem" height="2rem" />
+            </button>
+          </CopyToClipboard>
         </div>
       </section>
 
