@@ -91,7 +91,6 @@ div#welcome {
   min-height: 95vh;
   position: sticky;
   top: 0;
-  z-index: -1;
 }
 
 div#welcome,
@@ -352,12 +351,13 @@ footer section#contact-container div#mail-box {
   border: solid ;
   border-radius: 10px;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   justify-content: space-between;
   padding: 1.5rem;
   /* padding-left: 2rem;
   padding-right: 2rem; */
 }
+
 footer section#contact-container div#mail-box a {
   text-decoration: none;
 }
