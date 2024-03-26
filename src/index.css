@@ -349,7 +349,6 @@ footer section#contact-container {
 
 footer section#contact-container div#mail-box {
   align-items: center;
-  background-color: var(--highlight-purple);
   border: solid ;
   border-radius: 10px;
   display: flex;
@@ -361,7 +360,6 @@ footer section#contact-container div#mail-box {
 }
 footer section#contact-container div#mail-box a {
   text-decoration: none;
-  color: var(--white);
 }
 
 footer section#contact-container div#mail-box button {
