@@ -348,13 +348,19 @@ footer section#contact-container {
 
 footer section#contact-container div#mail-box {
   align-items: center;
-  border-radius: 10px;
+  background-color: white;
+  border-radius: 40px;
   display: flex;
   gap: 1rem;
   justify-content: space-between;
 }
 
 footer section#contact-container div#mail-box a {
+  color: var(--black);
+  border-radius: 30px;
+  font-weight: 700;
+  margin-left: 3rem;
+  padding: .5rem;
   text-decoration: none;
 }
 
