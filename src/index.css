@@ -348,15 +348,10 @@ footer section#contact-container {
 
 footer section#contact-container div#mail-box {
   align-items: center;
-  border: solid;
   border-radius: 10px;
-  background-color: var(--highlight-purple);
   display: flex;
   gap: 1rem;
   justify-content: space-between;
-  padding: 1.5rem;
-  /* padding-left: 2rem;
-  padding-right: 2rem; */
 }
 
 footer section#contact-container div#mail-box a {
@@ -365,7 +360,14 @@ footer section#contact-container div#mail-box a {
 
 footer section#contact-container div#mail-box button {
   cursor: pointer;
-  background-color: transparent;
+  background-color: var(--highlight-purple);
+  border: solid var(--highlight-purple);
+  border-radius: 100%;
+  padding: 1rem;
+}
+
+footer section#contact-container div#mail-box button .icon-copy {
+  color: var(--white);
 }
 
 /* ANIMACION */
