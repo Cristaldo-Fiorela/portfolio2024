@@ -114,7 +114,6 @@ div#welcome h1 {
 
 div#welcome div.subtitle h2 span.subtitle-pill {
   border: solid;
-  border-color: var(--black);
   border-radius: 40px;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -349,8 +348,9 @@ footer section#contact-container {
 
 footer section#contact-container div#mail-box {
   align-items: center;
-  border: solid ;
+  border: solid var(--highlight-purple);
   border-radius: 10px;
+  background-color: #717dff51;
   display: flex;
   gap: 1rem;
   justify-content: space-between;
@@ -359,16 +359,18 @@ footer section#contact-container div#mail-box {
   padding-right: 2rem; */
 }
 
-footer section#contact-container div#mail-box a {
+footer section#contact-container div#mail-box a,
+footer section#contact-container div#mail-box button .icon-copy {
   text-decoration: none;
+  color: var(--highlight-purple);
 }
 
 footer section#contact-container div#mail-box button {
   cursor: pointer;
-  padding: .5rem;
-  border: solid ;
-  border-radius: 15px;
   background-color: transparent;
+  border: solid var(--highlight-purple);
+  border-radius: 15px;
+  padding: .5rem;
 }
 
 /* ANIMACION */

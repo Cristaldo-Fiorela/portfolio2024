@@ -26,9 +26,9 @@ const Footer = () => {
           >
             <button title='copiar'>
               {copy ? 
-                <Icon icon="tabler:copy-check" width="2rem" height="2rem" />              
+                <Icon className='icon-copy' icon="tabler:copy-check" width="2rem" height="2rem" />              
                 :
-                <Icon icon="lucide:copy-plus" width="2rem" height="2rem" />
+                <Icon className='icon-copy' icon="lucide:copy-plus" width="2rem" height="2rem" />
               }
             </button>
           </CopyToClipboard>
