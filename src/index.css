@@ -348,9 +348,9 @@ footer section#contact-container {
 
 footer section#contact-container div#mail-box {
   align-items: center;
-  border: solid var(--highlight-purple);
+  border: solid;
   border-radius: 10px;
-  background-color: #717dff51;
+  background-color: var(--highlight-purple);
   display: flex;
   gap: 1rem;
   justify-content: space-between;
@@ -359,18 +359,13 @@ footer section#contact-container div#mail-box {
   padding-right: 2rem; */
 }
 
-footer section#contact-container div#mail-box a,
-footer section#contact-container div#mail-box button .icon-copy {
+footer section#contact-container div#mail-box a {
   text-decoration: none;
-  color: var(--highlight-purple);
 }
 
 footer section#contact-container div#mail-box button {
   cursor: pointer;
   background-color: transparent;
-  border: solid var(--highlight-purple);
-  border-radius: 15px;
-  padding: .5rem;
 }
 
 /* ANIMACION */
