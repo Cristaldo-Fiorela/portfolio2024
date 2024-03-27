@@ -36,11 +36,11 @@ const Footer = () => {
       </section>
 
       <div id="social-container">
-        <a href="https://www.linkedin.com/in/fiorela-cristaldo/" target="_blank" >
-          <Icon icon="bi:linkedin" width="2rem" height="2rem" />
+        <a href="https://www.linkedin.com/in/fiorela-cristaldo/" target="_blank" className='yellow-hl'>
+          <Icon className='icon-social' icon="ri:linkedin-fill" width="2rem" height="2rem" color='#1A1918' />
         </a>
-        <a href="https://github.com/Cristaldo-Fiorela" target="_blank" >
-          <Icon icon="bi:github" width="2rem" height="2rem" />
+        <a href="https://github.com/Cristaldo-Fiorela" target="_blank" className='pink-hl'>
+          <Icon className='icon-social' icon="bi:github" width="2rem" height="2rem" color='#1A1918' />
         </a>
       </div>
     </footer>
