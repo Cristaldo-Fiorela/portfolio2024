@@ -1,6 +1,6 @@
 :root {
   --black: #242424;
-  --black-darker: #191816;
+  --grey: #bdbdb9;
   --font-body:"Space Grotesk", sans-serif;
   --font-heading: "Dela Gothic One", sans-serif;
   --highlight-pink: #F1A0FF;
@@ -16,15 +16,13 @@
 }
 
 body {
-  color: var(--black);
+  background-color: var(--white);
   color: var(--black);
   font-family: var(--font-body);
   font-size: 1.4rem;
   font-weight: 400;
   min-height: 100vh;
   width: 100%;
-  background-color: var(--white);
-  background-color: var(--white);
 }
 
 main#main-container {
@@ -41,6 +39,12 @@ section h2.section-title {
   font-family: var(--font-heading);
   font-size: 4rem;
   margin-bottom: 2rem;
+}
+
+body, 
+footer {
+  background-image: radial-gradient(var(--grey) 1px, transparent 1px);
+  background-size: 30px 30px;
 }
 
 /* HEADER */
