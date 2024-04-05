@@ -1,5 +1,6 @@
 :root {
-  --black: #1A1918;
+  --black: #242424;
+  --black-darker: #191816;
   --font-body:"Space Grotesk", sans-serif;
   --font-heading: "Dela Gothic One", sans-serif;
   --highlight-pink: #F1A0FF;
@@ -16,11 +17,13 @@
 
 body {
   color: var(--black);
+  color: var(--black);
   font-family: var(--font-body);
   font-size: 1.4rem;
   font-weight: 400;
   min-height: 100vh;
   width: 100%;
+  background-color: var(--white);
   background-color: var(--white);
 }
 
