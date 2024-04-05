@@ -19,10 +19,7 @@ const Footer = () => {
       <section id="contact-container">
         <div className='footer-action-box'>
           <h2>Te gusta mi trabajo?</h2>
-          <h3>
-            Conectemos! {""}
-            <Icon icon="fa-solid:hand-point-down" width="2rem" height="2rem" />        
-          </h3>
+          <h3>Conectemos!</h3>
         </div>
         <div id='mail-box'>
           <a href="mailto:cristaldofiorela@gmail.com">cristaldofiorela@gmail.com</a>
