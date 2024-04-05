@@ -17,11 +17,11 @@ const Footer = () => {
   return (
     <footer>
       <section id="contact-container">
-        <div>
+        <div className='footer-action-box'>
           <h2>Te gusta mi trabajo?</h2>
           <h3>
-            Conectemos!{""}
-            <Icon icon="fa-solid:hand-point-down" width="1.2rem" height="1.2rem" />        
+            Conectemos! {""}
+            <Icon icon="fa-solid:hand-point-down" width="2rem" height="2rem" />        
           </h3>
         </div>
         <div id='mail-box'>
