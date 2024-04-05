@@ -17,7 +17,13 @@ const Footer = () => {
   return (
     <footer>
       <section id="contact-container">
-        <h2>Te gusta mi trabajo? Conectemos!</h2>
+        <div>
+          <h2>Te gusta mi trabajo?</h2>
+          <h3>
+            Conectemos!{""}
+            <Icon icon="fa-solid:hand-point-down" width="1.2rem" height="1.2rem" />        
+          </h3>
+        </div>
         <div id='mail-box'>
           <a href="mailto:cristaldofiorela@gmail.com">cristaldofiorela@gmail.com</a>
           <CopyToClipboard 
