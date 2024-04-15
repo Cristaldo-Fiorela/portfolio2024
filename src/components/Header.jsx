@@ -13,7 +13,7 @@ const Header = () => {
         <a href="">Sobre Mi</a>
         <a href="">Habilidades</a>
         <a href="">Proyectos</a>
-        <a href="">CV</a>
+        <a href="https://drive.google.com/file/d/1c6gwb21RlpnsBcyR3tWmsWw35ITt7RGp/view?usp=sharing" id='btn-cv' target='_blank'>CV</a>
       </nav>
     </header>
   )
