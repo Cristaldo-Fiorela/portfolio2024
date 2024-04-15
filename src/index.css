@@ -51,16 +51,19 @@ footer {
 
 header {
   /* background-color: #242424; */
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1)), rgba(255, 255, 255, 0);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
   display: flex;
   flex-direction: row;
   height: 5vh;
   justify-content: space-between;
-  width: 100%;
   padding-right: 3rem;
   padding-top: 2rem;
   padding-left: 3rem;
   position: sticky;
   top: 0;
+  width: 100%;
   z-index: 2;
 }
 
