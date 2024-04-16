@@ -10,9 +10,9 @@ const Header = () => {
         <span>&#125;</span>
       </div>
       <nav>
-        <a href="">Sobre Mi</a>
-        <a href="">Habilidades</a>
-        <a href="">Proyectos</a>
+        <a href="#about">Sobre Mi</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projects">Proyectos</a>
         <a href="https://drive.google.com/file/d/1c6gwb21RlpnsBcyR3tWmsWw35ITt7RGp/view?usp=sharing" id='btn-cv' target='_blank'>CV</a>
       </nav>
     </header>
