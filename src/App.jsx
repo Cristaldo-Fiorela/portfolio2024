@@ -8,21 +8,29 @@ import Welcome from './components/Welcome';
 import { useEffect, useRef } from 'react';
 
 function App() {
-  const navbarRef = useRef('');
-  const mainContainerRef = useRef('');
+  const navbarRef = useRef(null);
+  const mainContainerRef = useRef(null);
 
   const spaceBtwElements = () => {
     // Obteniendo del DOM los elemenos
-    const navbar = document.querySelector('header');
+    const header = document.querySelector('header');
+    const navbar = document.querySelector('header nav');
     const mainContainer = document.querySelector('#main-container');
 
     // Obteniendo su posicion en pantalla
-    const positionNavbar = navbar.getBoundingClientRect();
+    const positionHeader = header.getBoundingClientRect();
     const positionMainContainer = mainContainer.getBoundingClientRect();
 
     // Espacio disponible entre ellos al scrollear
-    const spaceBtw = positionMainContainer.top - positionNavbar.bottom;
+    const spaceBtw = positionMainContainer.top - positionHeader.bottom;
     console.log(spaceBtw);
+
+    // agregando cambio de color con clases
+    if(spaceBtw <= 1) {
+      navbar.classList.add('active');
+    } else {
+      navbar.classList.remove('active');
+    }
   }
 
   useEffect(() => {
@@ -31,7 +39,6 @@ function App() {
       window.removeEventListener('scroll', spaceBtwElements);
     };
   }, []);
-
 
   return (
     <>
