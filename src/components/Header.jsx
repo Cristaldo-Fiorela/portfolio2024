@@ -1,7 +1,7 @@
 import React from 'react'
 import { Icon } from '@iconify/react';
 
-import { cvSpanish, logo } from '../db/cv.js';
+import { cvSpanish, logo } from '../db/links.js';
 
 const Header = ({navbarRef}) => {
   return (
