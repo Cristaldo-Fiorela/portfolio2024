@@ -1,7 +1,7 @@
 import React from 'react'
 import { Icon } from '@iconify/react';
 
-import { cvSpanish, logo, lightLogo } from '../db/links.js';
+import { cvSpanish, logo, logoWhite } from '../db/links.js';
 
 const Header = ({navbarRef, whiteLogo}) => {
   return (
@@ -11,7 +11,7 @@ const Header = ({navbarRef, whiteLogo}) => {
         <Icon icon="solar:star-bold" width="2rem" height="2rem" id='logo-icon' />        
         <span>&#125;</span> */}
         {whiteLogo ?
-          <img src={lightLogo} alt="hola" height={55} />
+          <img src={logoWhite} alt="hola" height={55} />
           :
           <img src={logo} alt="hola" height={55} />
         }
