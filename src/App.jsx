@@ -5,9 +5,10 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Welcome from './components/Welcome';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 function App() {
+  const [whiteLogo, setWhiteLogo] = useState(false);
   const navbarRef = useRef(null);
   const mainContainerRef = useRef(null);
 
@@ -28,8 +29,10 @@ function App() {
     // agregando cambio de color con clases
     if(spaceBtw <= 1) {
       navbar.classList.add('active');
+      setWhiteLogo(true);
     } else {
       navbar.classList.remove('active');
+      setWhiteLogo(false);
     }
   }
 
@@ -42,7 +45,10 @@ function App() {
 
   return (
     <>
-      <Header  navbarRef={navbarRef}/>
+      <Header 
+        navbarRef={navbarRef}
+        whiteLogo={whiteLogo}
+      />
       <Welcome />
       <main id='main-container' ref={mainContainerRef}>
         <About />
