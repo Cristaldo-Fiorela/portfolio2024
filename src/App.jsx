@@ -7,18 +7,20 @@ import Welcome from './components/Welcome';
 
 import { useEffect, useRef } from 'react';
 
-
 function App() {
   const navbarRef = useRef('');
   const mainContainerRef = useRef('');
 
-  const navbar = document.querySelector('header');
-  const mainContainer = document.querySelector('#main-container');
-
   const spaceBtwElements = () => {
+    // Obteniendo del DOM los elemenos
+    const navbar = document.querySelector('header');
+    const mainContainer = document.querySelector('#main-container');
+
+    // Obteniendo su posicion en pantalla
     const positionNavbar = navbar.getBoundingClientRect();
     const positionMainContainer = mainContainer.getBoundingClientRect();
 
+    // Espacio disponible entre ellos al scrollear
     const spaceBtw = positionMainContainer.top - positionNavbar.bottom;
     console.log(spaceBtw);
   }
@@ -33,7 +35,7 @@ function App() {
 
   return (
     <>
-      <Header  ref={navbarRef}/>
+      <Header  navbarRef={navbarRef}/>
       <Welcome />
       <main id='main-container' ref={mainContainerRef}>
         <About />

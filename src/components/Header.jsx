@@ -1,14 +1,10 @@
 import React from 'react'
 import { Icon } from '@iconify/react';
 
-const Header = () => {
-
-
-  //handleScroll();
-  // window.addEventListener('scroll', changeColorNav);
+const Header = ({navbarRef}) => {
 
   return (
-    <header>
+    <header ref={navbarRef}>
       <div className="logo">
         <span>&#123;</span>
         <Icon icon="solar:star-bold" width="2rem" height="2rem" id='logo-icon' />        
