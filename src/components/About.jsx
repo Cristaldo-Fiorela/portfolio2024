@@ -1,9 +1,14 @@
+import { Icon } from '@iconify/react';
+
 import portrait from '../assets/image/portrait.jpeg';
 
 const About = () => {
   return (
     <section id='about'>
-      <h2 className='section-title'>Sobre Mi</h2>
+      <h2 className='section-title'>
+        Sobre Mi {""}
+        <Icon icon="akar-icons:sparkles" width="3rem" height="3rem" />
+      </h2>
       <div>
         <img src={portrait} alt="retrato" id='portrait'/>
         <div className='about-description'>

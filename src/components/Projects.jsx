@@ -1,9 +1,14 @@
+import { Icon } from '@iconify/react';
+
 import DB from '../db/db.json';
 
 const Projects = () => {
   return (
     <section id="projects">
-      <h2 className="section-title">Proyectos</h2>
+      <h2 className="section-title">
+        Proyectos {""}
+        <Icon icon="akar-icons:sparkles" width="3rem" height="3rem" />
+      </h2>
       <div className='projects-container'>
         { DB.map(project => (
           <div 

@@ -3,7 +3,10 @@ import { Icon } from '@iconify/react';
 const Skills = () => {
   return (
     <section id="skills">
-      <h2 className="section-title">Habilidades</h2>
+      <h2 className="section-title">
+        Habilidades {""}
+      <Icon icon="akar-icons:sparkles" width="3rem" height="3rem" />
+      </h2>
       <div className="skill-container">
         <section id="skill-front">
           <h3>Desarrollo Frontend</h3>
