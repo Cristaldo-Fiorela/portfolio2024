@@ -104,6 +104,10 @@ header nav a#btn-cv {
   padding-right: 2rem;
 }
 
+header nav.active a {
+  color: var(--white);
+}
+
 /* WELCOME */
 
 div#welcome {

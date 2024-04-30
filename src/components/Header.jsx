@@ -2,6 +2,11 @@ import React from 'react'
 import { Icon } from '@iconify/react';
 
 const Header = () => {
+
+
+  //handleScroll();
+  // window.addEventListener('scroll', changeColorNav);
+
   return (
     <header>
       <div className="logo">
@@ -20,3 +25,40 @@ const Header = () => {
 }
 
 export default Header
+
+//import React, { useRef, useEffect } from 'react';
+
+// function MiComponente() {
+//   // Referencias a los elementos
+//   const navbarRef = useRef(null);
+//   const contenedorRef = useRef(null);
+
+//   // Función para calcular la distancia entre los elementos
+//   const calcularDistancia = () => {
+//     const rectNavbar = navbarRef.current.getBoundingClientRect();
+//     const rectContenedor = contenedorRef.current.getBoundingClientRect();
+    
+//     // Calcular la distancia vertical entre los elementos
+//     const distanciaVertical = rectContenedor.top - rectNavbar.bottom;
+    
+//     // Imprimir la distancia en la consola
+//     console.log('La distancia entre el navbar y el contenedor es: ' + distanciaVertical + ' pixeles.');
+//   };
+
+//   // Llamar a la función cuando se haga scroll en la página
+//   useEffect(() => {
+//     window.addEventListener('scroll', calcularDistancia);
+//     return () => {
+//       window.removeEventListener('scroll', calcularDistancia);
+//     };
+//   }, []); // Se ejecuta solo una vez al montar el componente
+
+//   return (
+//     <div>
+//       <nav ref={navbarRef}>Navbar</nav>
+//       <div ref={contenedorRef}>Contenedor de Información</div>
+//     </div>
+//   );
+// }
+
+// export default MiComponente;
