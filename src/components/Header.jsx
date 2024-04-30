@@ -1,8 +1,9 @@
 import React from 'react'
 import { Icon } from '@iconify/react';
 
-const Header = ({navbarRef}) => {
+import { cvSpanish } from '../db/cv.js';
 
+const Header = ({navbarRef}) => {
   return (
     <header ref={navbarRef}>
       <div className="logo">
@@ -14,7 +15,7 @@ const Header = ({navbarRef}) => {
         <a href="#about">Sobre Mi</a>
         <a href="#skills">Habilidades</a>
         <a href="#projects">Proyectos</a>
-        <a href="https://drive.google.com/file/d/1c6gwb21RlpnsBcyR3tWmsWw35ITt7RGp/view?usp=sharing" id='btn-cv' target='_blank'>CV</a>
+        <a href={cvSpanish} id='btn-cv' target='_blank'>CV</a>
       </nav>
     </header>
   )
