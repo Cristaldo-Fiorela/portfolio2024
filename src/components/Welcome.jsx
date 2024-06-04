@@ -15,7 +15,7 @@ const Welcome = () => {
           <span className='subtitle-pill'>fullstack</span>
         </h2>
         <h3>
-          con pasión por el {""}
+          con <span className='underline'>pasión</span> por el {""}
           <span className='subtitle-sparkle'>
             <Icon icon="lucide:sparkle" width="2rem" height="2rem" className='sparkle'/>
             {""} frontend {""}

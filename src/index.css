@@ -4,8 +4,10 @@
   --font-body:"Space Grotesk", sans-serif;
   --font-heading: "Dela Gothic One", sans-serif;
   --highlight-pink: #F1A0FF;
+  --highlight-dark-pink: #df88ef;
+  --highlight-dark-pink: #cc41e4;
   --highlight-purple: #717EFF;
-  --highlight-dark-purple: #616bdf;
+  --highlight-dark-purple: #5060ff;
   --highlight-yellow: #F9DB69;
   --white: #f0f0f0;
 }
@@ -158,11 +160,14 @@ div#welcome h1 {
 }
 
 div#welcome div.subtitle h2 span.subtitle-pill {
-  border: solid;
+  border: solid 0.3rem var(--highlight-dark-pink);
   border-radius: 40px;
   padding-left: 1rem;
   padding-right: 1rem;
   transition: border-radius .5s ease;
+  background-color: var(--highlight-pink);
+  background-color: #f1a0ff69;
+  color: var(--highlight-dark-pink);
 }
 
 div#welcome div.subtitle h2 span.subtitle-pill:hover {
@@ -171,6 +176,11 @@ div#welcome div.subtitle h2 span.subtitle-pill:hover {
 
 div#welcome div.subtitle h3 {
   margin-top: .5rem;
+}
+
+div#welcome div.subtitle h3 span.underline {
+  text-decoration: var(--highlight-purple) underline wavy;
+  text-decoration-thickness: 0.4rem;
 }
 
 div#welcome div.subtitle h3 span.subtitle-sparkle:hover .sparkle {
