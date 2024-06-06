@@ -1,5 +1,7 @@
 import { Icon } from '@iconify/react';
 
+// TODO: REALIZAR UN COMPONENTE PARA LOS P QUE CONTIENEN LAS SKILLS.
+
 const Skills = () => {
   return (
     <section id="skills">
